@@ -23,20 +23,9 @@ main {
     background-color: rgb(29, 28, 28);
 }
 
-#main-div{
+#main-div {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
 }
-
-/* #timesection {
-    font-family: 'Digital-7';
-    font-size: 8rem;
-    text-align: center;
-    color: rgb(226, 230, 13);
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-} */
-
