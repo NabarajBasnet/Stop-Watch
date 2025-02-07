@@ -1,5 +1,6 @@
 const startBtn = document.getElementById('start-btn');
 const stopBtn = document.getElementById('stop-btn');
+const resetBtn = document.getElementById('reset-btn');
 
 let hour = 0;
 let minute = 0;
@@ -49,3 +50,16 @@ const watch = () => {
         document.getElementById('hour').innerHTML = hour;
     };
 };
+
+resetBtn.addEventListener('click', () => {
+    timer = false;
+    hour = 0;
+    minute = 0;
+    second = 0;
+    milisecond = 0;
+
+    document.getElementById('milisecond').innerHTML = '00';
+    document.getElementById('second').innerHTML = '00';
+    document.getElementById('minute').innerHTML = '00';
+    document.getElementById('hour').innerHTML = '00';
+});
